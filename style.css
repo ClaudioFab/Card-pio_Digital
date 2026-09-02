@@ -1,0 +1,28 @@
+
+
+.a1{
+    font-family: Arial, sans-serif;
+    color: rgb(78, 40, 15);/*cor do texto*/
+    text-align: center;/*centraliza horizontalmente*/
+    padding: 25px;/*cria espaçamento interno*/
+    font-weight: bold;
+}
+
+.a2{
+    font-family: Arial, sans-serif;
+    color: rgb(151, 104, 73);/*cor do texto*/
+    text-align: center;/*centraliza horizontalmente*/
+    padding: 25px;/*cria espaçamento interno*/
+    font-weight: bold;
+}
+
+section {
+    background-color: #3c5960;
+    color: white;
+    /*Cor do texto*/
+    padding: 25px;
+    /*Espaço interno*/
+    margin-bottom: 20px;
+    /*Espaço abaixo de cada sessão*/
+    border: 1px solid #4b6a71;
+}

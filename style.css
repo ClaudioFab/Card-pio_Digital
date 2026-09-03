@@ -1,28 +1,92 @@
 
+header{
+    text-align: center;/*centraliza horizontalmente*/
+}
 
-.a1{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+hr{
+    font-weight: bold;
+    height: 5px; /* Altere este valor para a grossura que desejar */
+    background-color: rgb(225, 156, 109);/*Cor da linha*/
+    border: none; /* Remove a borda padrão do navegador que deixa a linha feia */
+    margin: 20px auto; /* Opcional: adiciona espaço acima e abaixo da linha */
+}
+
+h1.az1 {
     font-family: Arial, sans-serif;
     color: rgb(78, 40, 15);/*cor do texto*/
-    text-align: center;/*centraliza horizontalmente*/
     padding: 25px;/*cria espaçamento interno*/
     font-weight: bold;
 }
 
-.a2{
+h2.az2 {
     font-family: Arial, sans-serif;
-    color: rgb(151, 104, 73);/*cor do texto*/
-    text-align: center;/*centraliza horizontalmente*/
+    color: rgb(151, 104, 73); /*cor do texto*/
     padding: 25px;/*cria espaçamento interno*/
     font-weight: bold;
+}
+
+.z11{
+    font-family: Arial, sans-serif;
+    color: rgb(78, 40, 15);/*cor do texto*/
+
+}
+
+.z22 {
+    font-family: Arial, sans-serif;
+    color: rgb(151, 104, 73); /*cor do texto*/
+    font-weight: bold;
+}
+
+.valor{
+    font-family: Arial, sans-serif;
+    color: rgb(78, 40, 15);/*cor do texto*/
+    font-weight: bold;
+    text-align: left; /* Alinha o texto para a esquerda */
+    width: 100%;
+}
+
+
+main {
+    width: 80%;/*Largura do conteúdo principal*/
+    margin: 30px auto;
 }
 
 section {
-    background-color: #3c5960;
-    color: white;
-    /*Cor do texto*/
-    padding: 25px;
-    /*Espaço interno*/
-    margin-bottom: 20px;
-    /*Espaço abaixo de cada sessão*/
-    border: 1px solid #4b6a71;
+    background-color: white;
+    color: white;/*Cor do texto*/
+    padding: 25px;/*Espaço interno*/
+    margin-bottom: 20px;/*Espaço abaixo de cada sessão*/
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(179, 175, 175); 
 }
+
+img {
+    display: block;
+    margin: 0 auto; 
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px black; 
+}
+
+footer{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: rgb(151, 104, 73);/*cor do texto*/
+    text-align: center;/*centraliza horizontalmente*/
+    padding: 15px;/*cria espaçamento interno*/
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.teste1{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

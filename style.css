@@ -1,92 +1,96 @@
 
 header{
-    text-align: center;/*centraliza horizontalmente*/
+    text-align: center;/*centraliza horizontalmente o conteúdo dentro do header*/
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: white;
+    font-family: Arial, sans-serif;/*define o tipo de fonte utilizada no texto*/
+    margin: 0;/*remove a margem externa padrão criada pelo navegador*/
+    background-color: white;/*define a cor de fundo da página*/
+}
+
+.negrito{
+    font-weight: bold;/*deixa o texto em negrito*/
 }
 
 hr{
-    font-weight: bold;
-    height: 5px; /* Altere este valor para a grossura que desejar */
-    background-color: rgb(225, 156, 109);/*Cor da linha*/
-    border: none; /* Remove a borda padrão do navegador que deixa a linha feia */
-    margin: 20px auto; /* Opcional: adiciona espaço acima e abaixo da linha */
-}
-
-h1.az1 {
-    font-family: Arial, sans-serif;
-    color: rgb(78, 40, 15);/*cor do texto*/
-    padding: 25px;/*cria espaçamento interno*/
-    font-weight: bold;
-}
-
-h2.az2 {
-    font-family: Arial, sans-serif;
-    color: rgb(151, 104, 73); /*cor do texto*/
-    padding: 25px;/*cria espaçamento interno*/
-    font-weight: bold;
-}
-
-.z11{
-    font-family: Arial, sans-serif;
-    color: rgb(78, 40, 15);/*cor do texto*/
+    font-weight: bold;/*define o texto da linha como negrito*/
+    height: 5px; /*define a altura e consequentemente a grossura da linha*/
+    background-color: rgb(225, 156, 109);/*define a cor de fundo da linha*/
+    border: none; /*remove a borda padrão criada pelo navegador*/
+    margin: 20px auto; /*cria espaço acima e abaixo da linha mantendo ela centralizada*/
 
 }
 
-.z22 {
-    font-family: Arial, sans-serif;
-    color: rgb(151, 104, 73); /*cor do texto*/
-    font-weight: bold;
+h1.titulo {
+    font-family: Arial, sans-serif;/*define o tipo de fonte utilizada no título*/
+    color: rgb(78, 40, 15);/*define a cor do texto*/
+    padding: 25px;/*cria espaçamento interno entre o texto e as bordas do elemento*/
+    font-weight: bold;/*deixa o título em negrito*/
+    font-size: 40px;/*define o tamanho do texto*/
+    margin-bottom: 10px;/*define o espaço externo abaixo do título*/
 }
 
-.valor{
-    font-family: Arial, sans-serif;
-    color: rgb(78, 40, 15);/*cor do texto*/
-    font-weight: bold;
-    text-align: left; /* Alinha o texto para a esquerda */
-    width: 100%;
+h2.subtitulo {
+    font-family: Arial, sans-serif;/*define o tipo de fonte utilizada no subtítulo*/
+    color: rgb(151, 104, 73); /*define a cor do texto*/
+    padding: 0px;/*define o espaçamento interno entre o texto e as bordas do elemento*/
+    font-weight: bold;/*deixa o subtítulo em negrito*/
+    font-size: 30px;/*define o tamanho do texto*/
+    margin-top: 0;/*remove o espaço externo acima do subtítulo*/
+    margin-bottom: 50px;/*define o espaço externo abaixo do subtítulo*/
 }
 
+.variedade {
+    font-family: Arial, sans-serif;/*define o tipo de fonte utilizada no texto*/
+    color: rgb(151, 104, 73); /*define a cor do texto*/
+    font-weight: bold;/*deixa o texto em negrito*/
+    margin-bottom: 20px;/*define o espaço externo abaixo do rodapé*/   
+}
+
+.produto {
+    font-family: Arial, sans-serif;/*define o tipo de fonte utilizada no texto*/
+    color: rgb(78, 40, 15);/*define a cor do texto*/
+    display: flex;/*ativa o Flexbox para organizar os elementos dentro do produto*/
+    justify-content: space-between;/*separa os elementos horizontalmente ocupando o espaço disponível*/
+    align-items: center;/*alinha os elementos verticalmente mantendo eles no centro*/
+}
 
 main {
-    width: 80%;/*Largura do conteúdo principal*/
-    margin: 30px auto;
+    width: 80%;/*define a largura do conteúdo principal em relação à página*/
+    margin: 30px auto;/*cria espaço acima e abaixo mantendo o conteúdo centralizado horizontalmente*/
 }
 
 section {
-    background-color: white;
-    color: white;/*Cor do texto*/
-    padding: 25px;/*Espaço interno*/
-    margin-bottom: 20px;/*Espaço abaixo de cada sessão*/
-    border-radius: 15px;
-    box-shadow: 0px 5px 15px rgb(179, 175, 175); 
+    background-color: white;/*define a cor de fundo da seção*/
+    color: white;/*define a cor dos textos dentro da seção*/
+    padding: 25px;/*cria espaçamento interno entre o conteúdo e as bordas da seção*/
+    margin-bottom: 20px;/*cria espaço externo abaixo da seção*/
+    border-radius: 15px;/*arredonda os cantos da seção*/
+    box-shadow: 0px 5px 15px rgb(179, 175, 175);/*cria uma sombra ao redor da seção*/
+    margin-bottom: 30px;/*define o espaço externo abaixo da seção*/
+    /*width e margin mudam a largura das categorias no section mantendo elas no centro*/
+    width: 50%;/*define a largura da seção em relação ao elemento que a contém*/
+    margin: 30px auto;/*cria espaço acima e abaixo mantendo a seção centralizada horizontalmente*/
+
 }
 
 img {
-    display: block;
-    margin: 0 auto; 
-    border-radius: 15px;
-    box-shadow: 0px 5px 15px black; 
+    display: block;/*faz a imagem ocupar seu próprio bloco permitindo melhor controle de posicionamento*/
+    margin: 0 auto; /*mantém a imagem centralizada horizontalmente*/
+    border-radius: 15px;/*arredonda os cantos da imagem*/
+    box-shadow: 0px 5px 15px black; /*cria uma sombra ao redor da imagem*/
+    margin-bottom: 20px;/*define o espaço externo abaixo da imagem*/
 }
 
 footer{
-    background-color: white;
-    font-family: Arial, sans-serif;
-    color: rgb(151, 104, 73);/*cor do texto*/
-    text-align: center;/*centraliza horizontalmente*/
-    padding: 15px;/*cria espaçamento interno*/
-    font-weight: bold;
-    font-style: italic;
-}
-
-p.teste1{
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: white;/*define a cor de fundo do rodapé*/
+    font-family: Arial, sans-serif;/*define o tipo de fonte utilizada no rodapé*/
+    color: rgb(151, 104, 73);/*define a cor do texto do rodapé*/
+    text-align: center;/*centraliza horizontalmente o conteúdo do rodapé*/
+    padding: 15px;/*cria espaçamento interno entre o conteúdo e as bordas do rodapé*/
+    font-weight: bold;/*deixa o texto do rodapé em negrito*/
+    font-style: italic;/*deixa o texto do rodapé em itálico*/
+    margin-bottom: 70px;/*define o espaço externo abaixo do rodapé*/
 }
 
